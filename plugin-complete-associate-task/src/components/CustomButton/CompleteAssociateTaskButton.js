@@ -1,7 +1,6 @@
 import * as React from "react";
-import { withTheme, Button } from "@twilio/flex-ui-core";
+import { withTheme, styled, Button } from "@twilio/flex-ui";
 import { getAssociateTask } from "../../util/getAssociateTasks";
-import styled from "react-emotion";
 import ReactTooltip from "react-tooltip";
 
 export const CloseTaskButtonContainer = styled("div")`
